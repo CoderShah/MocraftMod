@@ -1,0 +1,17 @@
+[
+{
+  "modid": "moc",
+  "name": "MoCraft",
+  "description": "Custom modifications for the MoCraft modpack",
+  "version": "1.0a",
+  "mcversion": "1.4.7",
+  "logoFile": "/mcp.png",
+  "url": "http://mocraft.x10.mx/",
+  "updateUrl": "",
+  "authors": ["KingShahShah", "Zeusking19"],
+  "credits": "Made by the MoCraft team",
+  "parent": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
