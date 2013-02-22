@@ -22,11 +22,13 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.modloader.ModLoaderEntitySpawnCallback;
+import cpw.mods.fml.common.network.NetworkMod;
 import cpw.mods.fml.common.registry.EntityRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
-@Mod (modid = "mod_mocraft", name = "MoCraft", version = "inDev 1.0.0    MC 1.4.7")
+@Mod (modid = "mod_mocraft", name = "MoCraft", version = "Dev 1.0.0.0001 MC 1.4.7")
+@NetworkMod(clientSideRequired = true, serverSideRequired = false)
 public class MocraftBase{
 		//BLOCKS
 		
